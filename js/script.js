@@ -1,6 +1,14 @@
 ready(function(){
 
-  // В этом месте должен быть написан ваш код
+let mobMenu = document.querySelector('.main-nav');
+mobMenu.onclick = function (){
+  mobMenu.classList.toggle('main-nav--open');
+}
+
+let openFilter = document.querySelector('.filters');
+openFilter.onclick = function (){
+  openFilter.classList.toggle('filters--open');
+}
 
 
 
